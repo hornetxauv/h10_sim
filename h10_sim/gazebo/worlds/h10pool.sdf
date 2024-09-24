@@ -206,6 +206,143 @@
       <self_collide>false</self_collide>
     </model>
 
+    <model name="floor_2m">
+      <pose> -2.5 -5.362 0 0 0 0 </pose>
+      <link name="link">
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size> 25 0.01 30.7 </size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size> 25 0.01 30.7 </size>
+            </box>
+          </geometry>
+          <material>
+            <ambient> 0 0 0 0</ambient>
+            <diffuse> 1 1 0.5 1 </diffuse>
+            <specular> 0 0 0 0</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 1.57 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+
+    <model name="floor_slanted">
+      <pose> -2.5 -29.45 0.375 -0.04111 0 0 </pose>
+      <link name="link">
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size> 25 0.01 17.515 </size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size> 25 0.01 17.515 </size>
+            </box>
+          </geometry>
+          <material>
+            <ambient> 0 0 0 0</ambient>
+            <diffuse> 1 1 0.5 1 </diffuse>
+            <specular> 0 0 0 0</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 1.57 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+
+    <model name="floor_1.28">
+      <pose> -2.5 -39 0.72 0 0 0 </pose>
+      <link name="link">
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size> 25 0.01 1.8 </size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size> 25 0.01 1.8 </size>
+            </box>
+          </geometry>
+          <material>
+            <ambient> 0 0 0 0</ambient>
+            <diffuse> 1 1 0.5 1 </diffuse>
+            <specular> 0 0 0 0</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 1.57 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
       <cast_shadows>true</cast_shadows>
