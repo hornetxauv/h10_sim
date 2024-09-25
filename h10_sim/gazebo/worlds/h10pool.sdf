@@ -261,7 +261,7 @@
     </model>
 
     <!-- Shallow Water Floor-->
-    <model name="floor_1.28">
+    <model name="floor shallow">
       <pose> -2.5 9 0.72 0 0 0 </pose>
       <link name="link">
         <inertial>
@@ -309,7 +309,7 @@
     </model>
 
     <!-- Slanted Floor -->
-    <model name="floor_slanted">
+    <model name="floor slanted">
       <pose> -2.5 -0.55 0.375 0.04111 0 0 </pose>
       <link name="link">
         <inertial>
@@ -357,7 +357,7 @@
     </model>
 
     <!-- Deep Water Floor-->
-    <model name="floor_2m">
+    <model name="floor deep">
       <pose> -2.5 -24.638 0 0 0 0 </pose>
       <link name="link">
         <inertial>
