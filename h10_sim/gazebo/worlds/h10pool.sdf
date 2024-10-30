@@ -76,6 +76,7 @@
       </link>
     </model>
 
+
     <!-- Pool Wall Left -->
     <model name='pool wall left'>
       <pose>-2.5 10.1 1.1 0 0 0</pose>
@@ -517,6 +518,281 @@
             <ambient>1 0 0 1</ambient>
           </material>
         </visual>
+      </link>
+    </model>
+      <!-- Blue Drum -->
+    <model name="blue_drum">
+      <static>true</static>
+      <link name="link">
+
+        <collision name="drum">
+          <pose>0 0 1.15 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.3</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="drum">
+          <cast_shadows>false</cast_shadows>
+          <pose>0 0 1.15 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.3</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Blue</name>
+            </script>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+    <!-- Gate -->
+    <model name="gate">
+      <static>true</static>
+      <link name="link">
+
+        <collision name="left">
+          <pose>-0.75 0 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <collision name="right">
+          <pose>0.75 0 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <collision name="top">
+          <pose>0 0 2.48 0 1.57 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <visual name="left">
+          <cast_shadows>false</cast_shadows>
+          <pose>-0.75 0 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Red</name>
+            </script>
+          </material>
+        </visual>
+
+        <visual name="right">
+          <cast_shadows>false</cast_shadows>
+          <pose>0.75 0 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Green</name>
+            </script>
+          </material>
+        </visual>
+
+        <visual name="top">
+          <cast_shadows>false</cast_shadows>
+          <pose>0 0 2.48 0 1.57 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Black</name>
+            </script>
+          </material>
+        </visual>
+
+        <visual name="bottom">
+          <cast_shadows>false</cast_shadows>
+          <pose>0 0 1.05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>1.8 .4 .02</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Yellow</name>
+            </script>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+    <!-- Red Drum -->
+    <model name="red_drum">
+      <static>true</static>
+      <link name="link">
+
+        <collision name="drum">
+          <pose>2 1 1.15 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.3</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+
+        <visual name="drum">
+          <cast_shadows>false</cast_shadows>
+          <pose>2 1 1.15 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.3</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Red</name>
+            </script>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <model name="red_flare">
+      <static>false</static>
+      <link name="link">
+
+        <collision name="flare">
+          <pose>0 8 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.075</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+
+        <visual name="flare">
+          <cast_shadows>false</cast_shadows>
+          <pose>0 8 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.075</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Red</name>
+            </script>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <model name="yellow_flare">
+      <static>false</static>
+      <link name="link">
+
+        <collision name="flare">
+          <pose>8 0 1.4 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+
+        <visual name="flare">
+          <cast_shadows>false</cast_shadows>
+          <pose>8 0 1.4 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.02</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Yellow</name>
+            </script>
+          </material>
+        </visual>
+
+        <visual name="ball">
+          <cast_shadows>false</cast_shadows>
+          <pose>8 0 1.82 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.03</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/White</name>
+            </script>
+          </material>
+        </visual>
+
+        <visual name="stand">
+          <cast_shadows>false</cast_shadows>
+          <pose>8 0 1.01 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.02</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <name>SAUVC/Yellow</name>
+            </script>
+          </material>
+        </visual>
+
       </link>
     </model>
   </world>
