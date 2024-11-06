@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/media/materials/scripts
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models

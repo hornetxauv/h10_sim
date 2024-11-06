@@ -1,0 +1,3 @@
+[console_scripts]
+IMU = control.imu_sub:main
+

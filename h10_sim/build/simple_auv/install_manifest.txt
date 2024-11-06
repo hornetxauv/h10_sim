@@ -1,0 +1,19 @@
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/dynamics/model.sdf
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/dynamics/model.config
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/model.sdf
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/model.config
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/meshes/master assembly.SLDASM
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/meshes/auv_flipped.dae
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/meshes/auv.blend
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/meshes/master assembly (COM at origin).SLDASM
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/geometry/meshes/auv.dae
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/auv/model.sdf
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/models/auv/model.config
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/h10pool.config
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/media/materials/scripts/colors.material
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/media/materials/scripts/tiles.material
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/media/materials/scripts/water.material
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/worlds/h10pool.sdf
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/hooks/hook.dsv
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/share/simple_auv/hooks/custom_setup.sh
+/home/jelly/h10/h10_sim/h10_sim/install/simple_auv/./custom_setup.sh
