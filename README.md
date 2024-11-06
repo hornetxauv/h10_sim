@@ -4,6 +4,7 @@ h10's gazebo harmonic sim
 
 prepare 3 terminals to run the sim
 - cd h10_sim
+- cd h10_sim
 - colcon build
 - source install/setup.bash
 - source install/simple_auv/simple_auv/custom_setup.sh
