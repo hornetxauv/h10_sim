@@ -25,6 +25,11 @@
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
 
+    <include>
+      <uri>auv</uri>
+      <pose>0 0 1 0 -0 1.57</pose>
+    </include>
+
     <!-- Light -->
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
@@ -545,7 +550,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Blue</name>
             </script>
           </material>
@@ -599,7 +604,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Red</name>
             </script>
           </material>
@@ -616,7 +621,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Green</name>
             </script>
           </material>
@@ -633,7 +638,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Black</name>
             </script>
           </material>
@@ -649,7 +654,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Yellow</name>
             </script>
           </material>
@@ -684,7 +689,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Red</name>
             </script>
           </material>
@@ -719,7 +724,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Red</name>
             </script>
           </material>
@@ -754,7 +759,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Yellow</name>
             </script>
           </material>
@@ -770,7 +775,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/White</name>
             </script>
           </material>
@@ -787,7 +792,7 @@
           </geometry>
           <material>
             <script>
-              <uri>/home/jelly/h10_sim/h10_sim/gazebo/worlds/media/materials/scripts/colors.material</uri>
+              <uri>media/materials/scripts/colors.material</uri>
               <name>SAUVC/Yellow</name>
             </script>
           </material>

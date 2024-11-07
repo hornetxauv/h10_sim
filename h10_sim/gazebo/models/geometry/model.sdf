@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="geometry">
+
+    <!-- Body -->
+    <link name="base_link">
+      <inertial>
+        <mass>147.8671</mass>
+        <inertia>
+          <ixx>3.000000</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>41.980233</iyy>
+          <iyz>0</iyz>
+          <izz>41.980233</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="main_body_buoyancy">
+        <pose>0 0 0.007 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 0.3 0.246445166667</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- IMU -->
+      <sensor name="imu_sensor" type="imu">
+        <link_name>base_link</link_name>
+        <always_on>1</always_on>
+        <update_rate>1</update_rate>
+        <visualize>true</visualize>
+        <topic>/model/auv/link/base_link/imu</topic>
+      </sensor>
+    </link>
+
+    <!-- Front Left Prop -->
+    <link name="prop_fl">
+      <pose>-0.225 0.225 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_fl</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_fl_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_fl</child>
+      <axis>
+        <xyz>1 1 0</xyz>
+      </axis>
+    </joint>
+
+    <!-- Front Right Prop -->
+    <link name="prop_fr">
+      <pose>0.225 0.225 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_fr</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_fr_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_fr</child>
+      <axis>
+        <xyz>-1 1 0</xyz>
+      </axis>
+    </joint>
+
+    <!-- Middle Left Prop -->
+    <link name="prop_ml">
+      <pose>-0.225 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_ml</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_ml_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_ml</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+
+    <!-- Middle Right Prop -->
+    <link name="prop_mr">
+      <pose>0.225 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_mr</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_mr_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_mr</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+
+    <!-- Rear Left Prop -->
+    <link name="prop_rl">
+      <pose>-0.225 -0.225 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_rl</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_rl_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_rl</child>
+      <axis>
+        <xyz>-1 1 0</xyz>
+      </axis>
+    </joint>
+
+    <!-- Rear Right Prop -->
+    <link name="prop_rr">
+      <pose>0.225 -0.225 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.09</mass>
+      </inertial>
+
+      <visual name= "visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/auv_flipped.dae</uri>
+            <submesh>
+              <name>prop_rr</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="prop_rr_joint" type="revolute">
+      <pose>0 0 0 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_rr</child>
+      <axis>
+        <xyz>1 1 0</xyz>
+      </axis>
+    </joint>
+
+  </model>
+</sdf>
