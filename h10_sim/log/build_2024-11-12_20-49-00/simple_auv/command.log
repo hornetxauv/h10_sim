@@ -1,6 +1,0 @@
-Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake /home/jelly/h10_sim/h10_sim/gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jelly/h10_sim/h10_sim/install/simple_auv
-Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake /home/jelly/h10_sim/h10_sim/gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jelly/h10_sim/h10_sim/install/simple_auv
-Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake --build /home/jelly/h10_sim/h10_sim/build/simple_auv -- -j8 -l8
-Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake --build /home/jelly/h10_sim/h10_sim/build/simple_auv -- -j8 -l8
-Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake --install /home/jelly/h10_sim/h10_sim/build/simple_auv
-Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake --install /home/jelly/h10_sim/h10_sim/build/simple_auv
