@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="auv">
+
+    <include merge="true">
+      <uri>dynamics</uri>
+    </include>
+
+  </model>
+</sdf>

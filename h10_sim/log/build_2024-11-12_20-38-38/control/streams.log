@@ -1,0 +1,38 @@
+[1.094s] Invoking command in '/home/jelly/h10_sim/h10_sim/build/control': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jelly/h10_sim/h10_sim/build/control/build
+[1.563s] running develop
+[1.563s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.563s]   warnings.warn(
+[1.881s] Removing /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[1.920s] Invoked command in '/home/jelly/h10_sim/h10_sim/build/control' returned '0': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jelly/h10_sim/h10_sim/build/control/build
+[1.923s] Invoking command in '/home/jelly/h10_sim/h10_sim/control': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/jelly/h10_sim/h10_sim/build/control/build install --record /home/jelly/h10_sim/h10_sim/build/control/install.log --single-version-externally-managed install_data --force
+[2.333s] running egg_info
+[2.334s] writing ../build/control/control.egg-info/PKG-INFO
+[2.335s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[2.335s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[2.335s] writing requirements to ../build/control/control.egg-info/requires.txt
+[2.335s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[2.338s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[2.339s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[2.340s] running build
+[2.340s] running build_py
+[2.340s] creating /home/jelly/h10_sim/h10_sim/build/control/build
+[2.340s] creating /home/jelly/h10_sim/h10_sim/build/control/build/lib
+[2.340s] creating /home/jelly/h10_sim/h10_sim/build/control/build/lib/control
+[2.340s] copying control/imu_sub.py -> /home/jelly/h10_sim/h10_sim/build/control/build/lib/control
+[2.341s] copying control/__init__.py -> /home/jelly/h10_sim/h10_sim/build/control/build/lib/control
+[2.341s] running install
+[2.341s] running install_lib
+[2.342s] creating /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control
+[2.342s] copying /home/jelly/h10_sim/h10_sim/build/control/build/lib/control/imu_sub.py -> /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control
+[2.342s] copying /home/jelly/h10_sim/h10_sim/build/control/build/lib/control/__init__.py -> /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control
+[2.343s] byte-compiling /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control/imu_sub.py to imu_sub.cpython-310.pyc
+[2.344s] byte-compiling /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[2.344s] running install_data
+[2.344s] copying resource/control -> /home/jelly/h10_sim/h10_sim/install/control/share/ament_index/resource_index/packages
+[2.344s] copying package.xml -> /home/jelly/h10_sim/h10_sim/install/control/share/control
+[2.345s] running install_egg_info
+[2.347s] Copying ../build/control/control.egg-info to /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[2.348s] running install_scripts
+[2.382s] Installing IMU script to /home/jelly/h10_sim/h10_sim/install/control/lib/control
+[2.382s] writing list of installed files to '/home/jelly/h10_sim/h10_sim/build/control/install.log'
+[2.416s] Invoked command in '/home/jelly/h10_sim/h10_sim/control' returned '0': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/jelly/h10_sim/h10_sim/build/control/build install --record /home/jelly/h10_sim/h10_sim/build/control/install.log --single-version-externally-managed install_data --force

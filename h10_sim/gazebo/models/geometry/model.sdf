@@ -41,6 +41,29 @@
         <visualize>true</visualize>
         <topic>/model/auv/link/base_link/imu</topic>
       </sensor>
+      
+      <!-- Camera -->
+
+    <!-- Add the camera as a sensor -->
+    <sensor name="camera_sensor" type="camera">
+      <pose>0 0 1 0 0 0</pose> <!-- Position of the camera relative to the base_link -->
+      <camera>
+        <horizontal_fov>1.39626</horizontal_fov>  <!-- Field of view -->
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>  <!-- Image format -->
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>100</far>
+        </clip>
+
+      </camera>
+    </sensor>
+
+
+
     </link>
 
     <!-- Front Left Prop -->

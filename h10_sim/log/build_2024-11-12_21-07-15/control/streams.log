@@ -1,0 +1,21 @@
+[1.121s] Invoking command in '/home/jelly/h10_sim/h10_sim/control': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/jelly/h10_sim/h10_sim/build/control/build install --record /home/jelly/h10_sim/h10_sim/build/control/install.log --single-version-externally-managed install_data
+[1.541s] running egg_info
+[1.543s] writing ../build/control/control.egg-info/PKG-INFO
+[1.543s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[1.543s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[1.543s] writing requirements to ../build/control/control.egg-info/requires.txt
+[1.544s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[1.548s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[1.550s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[1.550s] running build
+[1.550s] running build_py
+[1.551s] running install
+[1.552s] running install_lib
+[1.555s] running install_data
+[1.555s] running install_egg_info
+[1.558s] removing '/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.559s] Copying ../build/control/control.egg-info to /home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[1.560s] running install_scripts
+[1.595s] Installing IMU script to /home/jelly/h10_sim/h10_sim/install/control/lib/control
+[1.595s] writing list of installed files to '/home/jelly/h10_sim/h10_sim/build/control/install.log'
+[1.630s] Invoked command in '/home/jelly/h10_sim/h10_sim/control' returned '0': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/jelly/h10_sim/h10_sim/build/control/build install --record /home/jelly/h10_sim/h10_sim/build/control/install.log --single-version-externally-managed install_data
