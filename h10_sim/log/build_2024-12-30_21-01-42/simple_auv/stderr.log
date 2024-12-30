@@ -1,0 +1,11 @@
+[0m/home/jelly/h10_sim/h10_sim[0m
+[0m/home/jelly/h10_sim/h10_sim/gazebo[0m
+[0m/home/jelly/h10_sim/h10_sim/build/simple_auv[0m
+[0mCMAKE_INSTALL_PREFIX is: /home/jelly/h10_sim/h10_sim/install[0m
+[0mInstalling models, worlds, and hooks directories to share/simple_auv[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m

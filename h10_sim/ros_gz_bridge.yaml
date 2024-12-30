@@ -1,19 +1,13 @@
-###################
-#    Thrusters    #
-###################
 
-# Front Left
 - ros_topic_name: "/model/auv/joint/prop_fl_joint/cmd_thrust"
   gz_topic_name: "/model/auv/joint/prop_fl_joint/cmd_thrust"
   ros_type_name: "std_msgs/msg/Float64"
   gz_type_name: "gz.msgs.Double"
-  subscriber_queue: 5 # Default 10
-  publisher_queue: 6 # Default 10
-  lazy: true # Default "false"
+  subscriber_queue: 5 
+  publisher_queue: 6 
+  lazy: true 
   direction:
-    ROS_TO_GZ # Default "BIDIRECTIONAL" - Bridge both directions
-    # "GZ_TO_ROS" - Bridge Gz topic to ROS
-    # "ROS_TO_GZ" - Bridge ROS topic to Gz
+    ROS_TO_GZ 
 
 # Front Right
 - ros_topic_name: "/model/auv/joint/prop_fr_joint/cmd_thrust"
@@ -64,10 +58,6 @@
   publisher_queue: 6
   lazy: true
   direction: ROS_TO_GZ
-
-#############
-#    IMU    #
-#############
 
 - ros_topic_name: "/model/auv/link/base_link/imu"
   gz_topic_name: "/model/auv/link/base_link/imu"
