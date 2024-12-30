@@ -418,7 +418,7 @@
       <self_collide>false</self_collide>
     </model>
 
-    <model name="floating object">
+    <!--<model name="floating object">
       <pose>-2 0 1 0 0 0</pose>
       <link name="link">
         <inertial>
@@ -435,11 +435,11 @@
               <size>0.2 0.2 0.2</size>
             </box>
           </geometry>
-          <!-- <surface>
+           <surface>
             <contact>
               <collide_bitmask>0x01</collide_bitmask>
             </contact>
-          </surface> -->
+          </surface>
         </collision>
         <visual name="visual">
           <geometry>
@@ -452,9 +452,9 @@
           </material>
         </visual>
       </link>
-    </model>
+    </model>-->
 
-    <model name="neutral object">
+    <!--<model name="neutral object">
       <pose>0 0 1 0 0 0</pose>
       <link name="link">
         <inertial>
@@ -471,11 +471,11 @@
               <size>0.2 0.2 0.2</size>
             </box>
           </geometry>
-          <!-- <surface>
+          <surface>
             <contact>
               <collide_bitmask>0x01</collide_bitmask>
             </contact>
-          </surface> -->
+          </surface> 
         </collision>
         <visual name="visual">
           <geometry>
@@ -488,9 +488,9 @@
           </material>
         </visual>
       </link>
-    </model>
+    </model>-->
 
-    <model name="sinking object">
+    <!--<model name="sinking object">
       <pose>2 0 1 0 0 0</pose>
       <link name="link">
         <inertial>
@@ -507,11 +507,11 @@
               <size>0.2 0.2 0.2</size>
             </box>
           </geometry>
-          <!-- <surface>
+          <surface>
             <contact>
               <collide_bitmask>0x01</collide_bitmask>
             </contact>
-          </surface> -->
+          </surface> 
         </collision>
         <visual name="visual">
           <geometry>
@@ -524,14 +524,14 @@
           </material>
         </visual>
       </link>
-    </model>
+    </model>-->
       <!-- Blue Drum -->
     <model name="blue_drum">
       <static>true</static>
       <link name="link">
 
         <collision name="drum">
-          <pose>0 0 1.15 0 0 0</pose>
+          <pose>5 5 1.15 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.3</radius>
@@ -541,7 +541,7 @@
         </collision>
         <visual name="drum">
           <cast_shadows>false</cast_shadows>
-          <pose>0 0 1.15 0 0 0</pose>
+          <pose>5 5 1.15 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.3</radius>
@@ -564,7 +564,7 @@
       <link name="link">
 
         <collision name="left">
-          <pose>-0.75 0 1.75 0 0 0</pose>
+          <pose>-4.25 5 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -574,7 +574,7 @@
         </collision>
 
         <collision name="right">
-          <pose>0.75 0 1.75 0 0 0</pose>
+          <pose>-5.75 5 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -584,7 +584,7 @@
         </collision>
 
         <collision name="top">
-          <pose>0 0 2.48 0 1.57 0</pose>
+          <pose>-5 5 2.48 0 1.57 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -595,7 +595,7 @@
 
         <visual name="left">
           <cast_shadows>false</cast_shadows>
-          <pose>-0.75 0 1.75 0 0 0</pose>
+          <pose>-4.25 5 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -612,7 +612,7 @@
 
         <visual name="right">
           <cast_shadows>false</cast_shadows>
-          <pose>0.75 0 1.75 0 0 0</pose>
+          <pose>-5.75 5 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -629,7 +629,7 @@
 
         <visual name="top">
           <cast_shadows>false</cast_shadows>
-          <pose>0 0 2.48 0 1.57 0</pose>
+          <pose>-5 5 2.48 0 1.57 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -646,7 +646,7 @@
 
         <visual name="bottom">
           <cast_shadows>false</cast_shadows>
-          <pose>0 0 1.05 0 0 0</pose>
+          <pose>-5 5 1.05 0 0 0</pose>
           <geometry>
             <box>
               <size>1.8 .4 .02</size>
@@ -703,7 +703,7 @@
       <link name="link">
 
         <collision name="flare">
-          <pose>0 8 1.75 0 0 0</pose>
+          <pose>1 -3 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.075</radius>
@@ -715,7 +715,7 @@
 
         <visual name="flare">
           <cast_shadows>false</cast_shadows>
-          <pose>0 8 1.75 0 0 0</pose>
+          <pose>1 -3 1.75 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.075</radius>
@@ -738,7 +738,7 @@
       <link name="link">
 
         <collision name="flare">
-          <pose>8 0 1.4 0 0 0</pose>
+          <pose>-9 3 1.4 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
@@ -750,7 +750,7 @@
 
         <visual name="flare">
           <cast_shadows>false</cast_shadows>
-          <pose>8 0 1.4 0 0 0</pose>
+          <pose>-9 3 1.4 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.02</radius>
