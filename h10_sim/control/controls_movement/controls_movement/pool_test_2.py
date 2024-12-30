@@ -53,7 +53,6 @@ class ThrusterPublisher(Node):
             for pos in ['fl', 'fr', 'ml', 'mr', 'rl', 'rr']
         ]
 
-        # Create a timer to publish at 1 Hz
         self.timer = self.create_timer(1.0, self.publish_thrust_values)
 
     def publish_thrust_values(self):
@@ -63,10 +62,9 @@ class ThrusterPublisher(Node):
 
         thrust_values = self.t.getThrustPwm(target_xyz_force, target_torque)
 
-        # Publish thrust values to each thruster
         for i, pub in enumerate(self.thruster_publishers):
             msg = Float64()
-            msg.data = float(thrust_values[i])  # Explicitly convert to float
+            msg.data = float(thrust_values[i])  
             pub.publish(msg)
 
         self.get_logger().info(f"Published thrust values: {thrust_values}")
@@ -76,7 +74,7 @@ def main():
     rclpy.init()
     node = ThrusterPublisher()
     try:
-        rclpy.spin(node)  # Keep the node alive to allow continuous publishing
+        rclpy.spin(node)  
     except KeyboardInterrupt:
         pass
     finally:

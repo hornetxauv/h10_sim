@@ -1,0 +1,55 @@
+[1.138s] Invoking command in '/home/jelly/h10_sim/h10_sim/control/controls_movement': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/controls_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_movement build --build-base /home/jelly/h10_sim/h10_sim/build/controls_movement/build install --record /home/jelly/h10_sim/h10_sim/build/controls_movement/install.log --single-version-externally-managed install_data
+[1.562s] running egg_info
+[1.563s] creating ../../build/controls_movement/controls_movement.egg-info
+[1.564s] writing ../../build/controls_movement/controls_movement.egg-info/PKG-INFO
+[1.564s] writing dependency_links to ../../build/controls_movement/controls_movement.egg-info/dependency_links.txt
+[1.564s] writing entry points to ../../build/controls_movement/controls_movement.egg-info/entry_points.txt
+[1.564s] writing requirements to ../../build/controls_movement/controls_movement.egg-info/requires.txt
+[1.565s] writing top-level names to ../../build/controls_movement/controls_movement.egg-info/top_level.txt
+[1.565s] writing manifest file '../../build/controls_movement/controls_movement.egg-info/SOURCES.txt'
+[1.567s] reading manifest file '../../build/controls_movement/controls_movement.egg-info/SOURCES.txt'
+[1.569s] writing manifest file '../../build/controls_movement/controls_movement.egg-info/SOURCES.txt'
+[1.569s] running build
+[1.569s] running build_py
+[1.569s] creating /home/jelly/h10_sim/h10_sim/build/controls_movement/build
+[1.569s] creating /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib
+[1.569s] creating /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.569s] copying controls_movement/thruster_allocator_test.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] copying controls_movement/driver.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] copying controls_movement/pool_test_2.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] copying controls_movement/thruster_allocator.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] copying controls_movement/pool_test_1.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] copying controls_movement/__init__.py -> /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement
+[1.570s] running install
+[1.571s] running install_lib
+[1.572s] creating /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.573s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/thruster_allocator_test.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.573s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/driver.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.573s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/pool_test_2.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.573s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/thruster_allocator.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.573s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/pool_test_1.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.574s] copying /home/jelly/h10_sim/h10_sim/build/controls_movement/build/lib/controls_movement/__init__.py -> /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement
+[1.574s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/thruster_allocator_test.py to thruster_allocator_test.cpython-310.pyc
+[1.575s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/driver.py to driver.cpython-310.pyc
+[1.575s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/pool_test_2.py to pool_test_2.cpython-310.pyc
+[1.576s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/thruster_allocator.py to thruster_allocator.cpython-310.pyc
+[1.578s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/pool_test_1.py to pool_test_1.cpython-310.pyc
+[1.579s] byte-compiling /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement/__init__.py to __init__.cpython-310.pyc
+[1.579s] running install_data
+[1.579s] creating /home/jelly/h10_sim/h10_sim/install/controls_movement/share/ament_index
+[1.579s] creating /home/jelly/h10_sim/h10_sim/install/controls_movement/share/ament_index/resource_index
+[1.579s] creating /home/jelly/h10_sim/h10_sim/install/controls_movement/share/ament_index/resource_index/packages
+[1.579s] copying resource/controls_movement -> /home/jelly/h10_sim/h10_sim/install/controls_movement/share/ament_index/resource_index/packages
+[1.580s] copying package.xml -> /home/jelly/h10_sim/h10_sim/install/controls_movement/share/controls_movement
+[1.580s] copying controls_movement/thrust_map.csv -> /home/jelly/h10_sim/h10_sim/install/controls_movement/share/controls_movement
+[1.580s] running install_egg_info
+[1.582s] Copying ../../build/controls_movement/controls_movement.egg-info to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement-0.0.0-py3.10.egg-info
+[1.583s] running install_scripts
+[1.618s] Installing moveBack script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] Installing moveDown script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] Installing moveFront script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] Installing moveLeft script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] Installing moveRight script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] Installing moveUp script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[1.619s] writing list of installed files to '/home/jelly/h10_sim/h10_sim/build/controls_movement/install.log'
+[1.653s] Invoked command in '/home/jelly/h10_sim/h10_sim/control/controls_movement' returned '0': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/controls_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_movement build --build-base /home/jelly/h10_sim/h10_sim/build/controls_movement/build install --record /home/jelly/h10_sim/h10_sim/build/controls_movement/install.log --single-version-externally-managed install_data

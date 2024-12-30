@@ -1,0 +1,58 @@
+[0.460s] Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake /home/jelly/h10_sim/h10_sim/gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jelly/h10_sim/h10_sim/install/simple_auv
+[0.640s] -- The C compiler identification is GNU 11.4.0
+[0.777s] -- The CXX compiler identification is GNU 11.4.0
+[0.792s] -- Detecting C compiler ABI info
+[0.897s] -- Detecting C compiler ABI info - done
+[0.910s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.911s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.918s] -- Detecting CXX compiler ABI info
+[1.043s] -- Detecting CXX compiler ABI info - done
+[1.056s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.056s] -- Detecting CXX compile features
+[1.057s] -- Detecting CXX compile features - done
+[1.058s] [0m/home/jelly/h10_sim/h10_sim[0m
+[1.058s] [0m/home/jelly/h10_sim/h10_sim/gazebo[0m
+[1.059s] [0m/home/jelly/h10_sim/h10_sim/build/simple_auv[0m
+[1.059s] [0mCMAKE_INSTALL_PREFIX is: /home/jelly/h10_sim/h10_sim/install[0m
+[1.059s] [0mInstalling models, worlds, and hooks directories to share/simple_auv[0m
+[1.059s] -- Configuring done
+[1.060s] -- Generating done
+[1.060s] [33mCMake Warning:
+[1.060s]   Manually-specified variables were not used by the project:
+[1.060s] 
+[1.060s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.060s] 
+[1.061s] [0m
+[1.061s] -- Build files have been written to: /home/jelly/h10_sim/h10_sim/build/simple_auv
+[1.065s] Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake /home/jelly/h10_sim/h10_sim/gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jelly/h10_sim/h10_sim/install/simple_auv
+[1.068s] Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake --build /home/jelly/h10_sim/h10_sim/build/simple_auv -- -j8 -l8
+[1.126s] Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake --build /home/jelly/h10_sim/h10_sim/build/simple_auv -- -j8 -l8
+[1.141s] Invoking command in '/home/jelly/h10_sim/h10_sim/build/simple_auv': /usr/bin/cmake --install /home/jelly/h10_sim/h10_sim/build/simple_auv
+[1.152s] -- Install configuration: ""
+[1.152s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models
+[1.153s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/dynamics
+[1.153s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/dynamics/model.sdf
+[1.153s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/dynamics/model.config
+[1.153s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry
+[1.154s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/model.sdf
+[1.154s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/model.config
+[1.154s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes
+[1.154s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes/master assembly.SLDASM
+[1.158s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes/auv_flipped.dae
+[1.180s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes/auv.blend
+[1.204s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes/master assembly (COM at origin).SLDASM
+[1.212s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/geometry/meshes/auv.dae
+[1.233s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/auv
+[1.234s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/auv/model.sdf
+[1.234s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/models/auv/model.config
+[1.234s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds
+[1.235s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/h10pool.config
+[1.235s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media
+[1.235s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media/materials
+[1.235s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media/materials/scripts
+[1.235s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media/materials/scripts/colors.material
+[1.236s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media/materials/scripts/tiles.material
+[1.236s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/media/materials/scripts/water.material
+[1.236s] -- Installing: /home/jelly/h10_sim/h10_sim/install/share/simple_auv/worlds/h10pool.sdf
+[1.238s] Invoked command in '/home/jelly/h10_sim/h10_sim/build/simple_auv' returned '0': /usr/bin/cmake --install /home/jelly/h10_sim/h10_sim/build/simple_auv

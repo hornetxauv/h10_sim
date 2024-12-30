@@ -21,6 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        "IMU =controls_movement.imu_sub:main",
             "moveLeft = controls_movement.pool_test_2:main",
             "moveRight = controls_core.move_test:moveRight",
             "moveFront = controls_core.move_test:moveFront",

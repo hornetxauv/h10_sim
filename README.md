@@ -22,4 +22,10 @@ new terminal
 new terminal
 - colcon build
 - source install/setup_custom.bash
-- ros2 run control IMU
+- ros2 run controls_movement moveLeft
+or 
+- ros2 run controls_movement IMU
+
+For the controls people, The File to have the movement test launch had to be changed so that it would be compatible with the sim. Go to the pool_test_2 file and you can see the previous version which was commented above, below it is the version that works. 
+
+You can see which values to change to adjust thrust and rotation by the comments.

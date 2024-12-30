@@ -1,0 +1,26 @@
+[1.508s] Invoking command in '/home/jelly/h10_sim/h10_sim/control/controls_movement': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/controls_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_movement build --build-base /home/jelly/h10_sim/h10_sim/build/controls_movement/build install --record /home/jelly/h10_sim/h10_sim/build/controls_movement/install.log --single-version-externally-managed install_data
+[2.097s] running egg_info
+[2.098s] writing ../../build/controls_movement/controls_movement.egg-info/PKG-INFO
+[2.099s] writing dependency_links to ../../build/controls_movement/controls_movement.egg-info/dependency_links.txt
+[2.099s] writing entry points to ../../build/controls_movement/controls_movement.egg-info/entry_points.txt
+[2.099s] writing requirements to ../../build/controls_movement/controls_movement.egg-info/requires.txt
+[2.099s] writing top-level names to ../../build/controls_movement/controls_movement.egg-info/top_level.txt
+[2.103s] reading manifest file '../../build/controls_movement/controls_movement.egg-info/SOURCES.txt'
+[2.105s] writing manifest file '../../build/controls_movement/controls_movement.egg-info/SOURCES.txt'
+[2.105s] running build
+[2.106s] running build_py
+[2.107s] running install
+[2.108s] running install_lib
+[2.111s] running install_data
+[2.111s] running install_egg_info
+[2.115s] removing '/home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[2.116s] Copying ../../build/controls_movement/controls_movement.egg-info to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages/controls_movement-0.0.0-py3.10.egg-info
+[2.117s] running install_scripts
+[2.168s] Installing moveBack script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.169s] Installing moveDown script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.169s] Installing moveFront script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.169s] Installing moveLeft script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.169s] Installing moveRight script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.169s] Installing moveUp script to /home/jelly/h10_sim/h10_sim/install/controls_movement/lib/controls_movement
+[2.170s] writing list of installed files to '/home/jelly/h10_sim/h10_sim/build/controls_movement/install.log'
+[2.222s] Invoked command in '/home/jelly/h10_sim/h10_sim/control/controls_movement' returned '0': PYTHONPATH=/home/jelly/h10_sim/h10_sim/build/controls_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/h10_sim/h10_sim/install/controls_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_movement build --build-base /home/jelly/h10_sim/h10_sim/build/controls_movement/build install --record /home/jelly/h10_sim/h10_sim/build/controls_movement/install.log --single-version-externally-managed install_data
