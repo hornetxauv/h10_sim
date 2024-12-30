@@ -1,9 +1,0 @@
-[console_scripts]
-IMU = controls_movement.imu_sub:main
-moveBack = controls_core.move_test:moveBack
-moveDown = controls_core.move_test:moveDown
-moveFront = controls_core.move_test:moveFront
-moveLeft = controls_movement.pool_test_2:main
-moveRight = controls_core.move_test:moveRight
-moveUp = controls_core.move_test:moveUp
-
