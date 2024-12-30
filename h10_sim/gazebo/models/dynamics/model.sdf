@@ -31,7 +31,7 @@
         <nR>0</nR>
     </plugin>
 
-    <!-- <plugin filename="libgz-sim7-camera-video-recorder-system.so" name="gz::sim::systems::CameraVideoRecorder">
+      <!-- <plugin name="gz::sim::systems::LogicalCamera" filename="libgz-sim7-logical-camera-system.so">
         <alwaysOn>true</alwaysOn>
         <updateRate>0.0</updateRate>
         <cameraName>rrbot/camera1</cameraName>

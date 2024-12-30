@@ -67,3 +67,15 @@
   publisher_queue: 6
   lazy: true
   direction: GZ_TO_ROS
+
+# Logical Camera Topic Bridge
+- ros_topic_name: "/model/auv/logical_camera"
+  gz_topic_name: "/model/auv/logical_camera"
+  ros_type_name: ""
+  gz_type_name: "gz.msgs.LogicalCameraImage"
+  subscriber_queue: 5
+  publisher_queue: 6
+  lazy: true
+  direction: GZ_TO_ROS
+
+
